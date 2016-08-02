@@ -1,0 +1,77 @@
+Faculty/Member
+    name 
+    email
+    access_level
+    contact
+    organization
+ 
+Document
+    name
+    date_uploaded
+    by
+    purpose/description
+ (PK)doc_id
+    type{resume/recommendation}
+
+Student
+    name
+    email
+    phone
+    college
+ (FK)doc_id
+    grade_level
+ (FK)house_id
+    isShuttle_provided
+    start_date_of_cecor_prog
+    end_date_of_cecor_prog
+    gender
+
+
+Program
+    name
+    status
+    availability_dates
+    confirmed_start_date
+    dates_of_program
+    location
+    
+
+Online Course
+    name
+    date_applied
+    
+
+Agenda
+    name
+    date_created
+    detailed_description
+
+Housing
+    name
+    paid_by
+    house_id
+    location
+    description
+    
+
+Student
+    uploads Document
+    apply/check status of Program
+    assigned Housing
+    view Agenda
+
+Member
+    creates Student
+    view Document
+    creates/updates Agenda
+    
+Document
+
+Agenda
+    
+Program
+
+Housing
+
+
+    
