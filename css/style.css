@@ -459,7 +459,7 @@ section.color{
 						COUNTER SECTION
 ======================================================================*/
 #counter{
-	background:url(../images/bg/counter.jpg) fixed;
+	background:url(../images/bg/counter.png) fixed;
 	background-size:cover;
 	-moz-background-size:cover;
 	-ms-background-size:cover;
@@ -930,7 +930,7 @@ section.color{
 ======================================================================*/
 #testimonials{
 	text-align:center;
-	background:url(../images/bg/testimonial.jpg)fixed;
+	background:url(../images/bg/testimonial.png)fixed;
 	background-size:cover;
 	z-index:0;
 	position:relative;
@@ -1092,7 +1092,7 @@ section.color{
 						CONTACT SECTION
 ======================================================================*/
 #contact{
-	background:url(../images/bg/contact.jpg)fixed;
+	background:url(../images/bg/contact.png)fixed;
 	padding-bottom:0;
 	position:relative;
 }
